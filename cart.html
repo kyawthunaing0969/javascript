@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart</title>
+<meta charset="utf-8" />
+<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+<meta http-equip="X-UA-compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<section id="nav-bar">
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: green;">
+  		
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="pull-right" >
+  		<a style="color:white; font-size: 30px;" href="index.html">My Watch</a>
+		</div> 
+  		<div class="collapse navbar-collapse" id="navbarNav">
+  		
+    		<ul class="navbar-nav ml-auto">
+    		 <li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="index.html">ပင်မစာမျက်နှာ</a>
+      		</li>
+    		 <li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="product.html">ကုန်ပစ္စည်းများ</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="cart.html">ဈေးခြင်းတောင်း</a>
+			
+      		</li>
+      		
+      		
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="aboutus.html">ကျွန်ုပ်တို့အကြောင်း</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="services.html">ဝန်ဆောင်မှူ</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="team.html" tabindex="-1" aria-disabled="true">ကျွန်ုပ်တို့အသင်း</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:white;" class="nav-link" href="#contact">ဆက်သွယ်ရန်</a>
+      		</li>
+      		
+      		
+    		</ul>
+  		</div>
+		</nav>
+</section>
+<body>
+
+<div id="site">
+	
+	<div id="content">
+		<h1>သင့်ဈေးခြင်းတောင်း</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">ကုန်ပစ္စည်း </th>
+					<th scope="col">အရေအတွက်</th>
+					<th scope="col" colspan="2">ဈေးနှုန်း</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>စုစုပေါင်းကျငွေ</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<!--<li>
+					<input type="submit" name="update" id="update-cart" class="btn btn-success" value="Update Cart" />
+				</li>  -->
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn btn-danger" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="product.html"><button type="button" class="btn btn-info">ဆက်လက်ဈေးဝယ်ရန်</button></a>
+				</li>
+				<li>
+					<a href="checkout.html"><button type="button" class="btn btn-success">ငွေပေးချေရန်</button></a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+
+<footer id="site-info">
+		Copyright &copy; My Watch 2021
+	</footer>
+
+</body>
+</html>	
